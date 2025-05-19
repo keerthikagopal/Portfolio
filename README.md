@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Keerthika Gopal | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4fdf4;
+      color: #333;
+    }
+
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 10px; /* space between logo and name */
+    }
+
+   .logo-icon {
+  background-color: #81c784; /* mild/light green */
+  color: white;
+  font-weight: bold;
+  font-size: 1.6rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+  user-select: none;
+}
+
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #2e7d32;
+      margin-bottom: 15px;
+    }
+
+    .project, .experience, .cert, .skills, .lang, .edu {
+      margin-bottom: 25px;
+      background: #e8f5e9;
+      padding: 20px;
+      border-left: 5px solid #2e7d32;
+      border-radius: 6px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #c8e6c9;
+      margin-top: 40px;
+    }
+
+    a {
+      color: #1b5e20;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav {
+        margin-top: 10px;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <div class="logo-icon">K</div>
+      <div class="logo">Keerthika Gopal</div>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>As an ambitious IT student with a passion for innovation and problem-solving, I consider myself a responsible and orderly person. I am looking forward to my first work experience. Empathic listener and persuasive speaker with excellent presentation and strong analytical skills.</p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="edu">
+      <strong>Shree Adharsh Matric Higher Secondary School, Pallapalayam</strong><br>
+      Secondary School | 2020 - 2022
+    </div>
+    <div class="edu">
+      <strong>PSGR Krishnammal College for Women</strong><br>
+      Bachelor of Information Technology | 2022 - 2025
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      HTML, CSS, ReactJS, Web Design, App Development
+    </div>
+    <h2>Languages</h2>
+    <div class="lang">
+      English, Tamil, Telugu
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <strong>Smart Assistant Glove</strong><br>
+      Developed an IoT-based Smart Assistant Glove to aid elderly individuals, integrating sensors for gesture-based control. Designed for enhanced mobility, safety, and real-time assistance.
+    </div>
+    <div class="project">
+      <strong>Test Report App (ELGI Company)</strong><br>
+      Developed a mobile application for ELGI Company to assist employees in monitoring machine performance.
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications & Internship</h2>
+    <div class="cert">
+      <strong>Mobile App Development</strong> - ICT Academy
+    </div>
+    <div class="cert">
+      <strong>HTML, CSS and JavaScript for Web Development</strong> - Coursera
+    </div>
+    <div class="cert">
+      <strong>Internship</strong> - ELGI Company Limited
+    </div>
+    <div class="cert">
+      <strong>Paper Presentation</strong><br>
+      Presented a paper titled <em>"Telecommunication and Remote Work"</em> at PSGR Krishnammal College; awarded Best Paper (Sep 2023)
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><strong>Phone:</strong> 8258141360</p>
+    <p><strong>Address:</strong> 54/29, Muruganandha Puram 2nd Street, Cotton Mill Road, Tiruppur 641602</p>
+    <p><strong>Email:</strong> <a href="mailto:keerthikagopalg@gmail.com">keerthikagopalg@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Keerthika Gopal | All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
